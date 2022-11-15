@@ -67,7 +67,7 @@ jobs:
           # Azure credentials, i.e., output of `az ad sp create-for-rbac --scopes /subscriptions/<SUBSCRIPTION-ID> --role Contributor --sdk-auth`
           creds: ${{ secrets.AZURE_CREDENTIALS }}
           # Resource group name
-          resource-group: mslearn-gh-pipelines-28611
+          resource-group: MC_mslearn-gh-pipelines-28611_contoso-video_eastus
           # AKS cluster name
           cluster-name: contoso-video
 
